@@ -6,5 +6,8 @@ namespace MagicDestroyers.Equipment.Armors.Light
 {
     class ClothRobe
     {
+        private int armorPoints;
+
+        public ClothRobe() { }
     }
 }

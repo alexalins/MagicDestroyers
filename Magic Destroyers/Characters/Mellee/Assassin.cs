@@ -21,17 +21,17 @@ namespace MagicDestroyers.Characters.Mellee
 
         }
 
-        public void raze()
+        public void Raze()
         {
 
         }
 
-        public void bleedToDeath()
+        public void BleedToDeath()
         {
 
         }
 
-        public void survival()
+        public void Survival()
         {
 
         }
