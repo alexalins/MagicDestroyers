@@ -15,8 +15,23 @@ namespace MagicDestroyers.Characters.Mellee
 
         }
 
-        public void HolyBlow() { }
-        public void PurifySoul() { }
-        public void RighteousWings() { }
+        public void HolyBlow() { Console.WriteLine("HolyBlow"); }
+        public void PurifySoul() { Console.WriteLine("PurifySoul"); }
+        public void RighteousWings() { Console.WriteLine("RighteousWings"); }
+
+        public override void Attack()
+        {
+            this.HolyBlow();
+        }
+
+        public override void Defend()
+        {
+            this.PurifySoul();
+        }
+
+        public override void SpecialAttack()
+        {
+            this.RighteousWings();
+        }
     }
 }

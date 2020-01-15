@@ -7,6 +7,15 @@ namespace MagicDestroyers.Equipment.Weapons.Blunt
     {
         public Staff() { }
 
-        public void Empower() { }
+       
+        public void Empower() 
+        {
+            Console.WriteLine("Empower");
+        }
+
+        public override void Buff()
+        {
+            this.Empower();
+        }
     }
 }

@@ -7,6 +7,14 @@ namespace MagicDestroyers.Equipment.Weapons.Sharp
     {
         public Sword() { }
 
-        public void Empower() { }
+        public void Empower() 
+        {
+            Console.WriteLine("Empower");
+        }
+
+        public override void Buff()
+        {
+            this.Empower();
+        }
     }
 }

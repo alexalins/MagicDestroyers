@@ -3,7 +3,7 @@ using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Models
 {
-    class Melee : Character
+    abstract class Melee : Character
     {
 
         public int AbilityPoints { get; set; }

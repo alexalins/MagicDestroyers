@@ -10,6 +10,11 @@ namespace MagicDestroyers.Equipment.Weapons.Blunt
 
         }
 
-        public void Stun() { }
+        public override void Buff()
+        {
+            this.Stun();
+        }
+
+        public void Stun() { Console.WriteLine("Stun"); }
     }
 }

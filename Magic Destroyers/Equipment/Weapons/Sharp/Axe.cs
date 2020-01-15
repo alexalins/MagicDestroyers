@@ -7,6 +7,14 @@ namespace MagicDestroyers.Equipment.Weapons.Sharp
     {
         public Axe() { }
 
-        public void HackNSlash() {}
+        public override void Buff()
+        {
+            this.HackNSlash();
+        }
+
+        public void HackNSlash() 
+        {
+            Console.WriteLine("HackNSlash");
+        }
     }
 }

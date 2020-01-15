@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MagicDestroyers.Models
 {
-    class Spellcasters : Character
+    abstract class Spellcaster : Character
     {
 
         public int ManaPoints { get; set; }

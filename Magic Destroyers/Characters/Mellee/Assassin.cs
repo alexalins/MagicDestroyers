@@ -1,6 +1,7 @@
 ﻿using MagicDestroyers.Equipment.Armors.Leather;
 using MagicDestroyers.Equipment.Weapons.Sharp;
 using MagicDestroyers.Models;
+using MagicDestroyers.Models.Enum;
 using System;
 
 namespace MagicDestroyers.Characters.Mellee
@@ -40,18 +41,32 @@ namespace MagicDestroyers.Characters.Mellee
 
         public void Raze()
         {
-
+            Console.WriteLine("Raze");
         }
 
         public void BleedToDeath()
         {
-
+            Console.WriteLine("BleedToDeath");
         }
 
         public void Survival()
         {
-
+            Console.WriteLine("Survival");
         }
 
+        public override void Attack()
+        {
+            this.Raze();
+        }
+
+        public override void Defend()
+        {
+            this.BleedToDeath();
+        }
+
+        public override void SpecialAttack()
+        {
+            this.Survival();
+        }
     }
 }

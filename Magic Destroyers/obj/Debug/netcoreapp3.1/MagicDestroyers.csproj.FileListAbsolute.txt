@@ -1,0 +1,11 @@
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\bin\Debug\netcoreapp3.1\MagicDestroyers.exe
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\bin\Debug\netcoreapp3.1\MagicDestroyers.deps.json
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\bin\Debug\netcoreapp3.1\MagicDestroyers.runtimeconfig.json
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\bin\Debug\netcoreapp3.1\MagicDestroyers.runtimeconfig.dev.json
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\bin\Debug\netcoreapp3.1\MagicDestroyers.dll
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\bin\Debug\netcoreapp3.1\MagicDestroyers.pdb
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\obj\Debug\netcoreapp3.1\MagicDestroyers.csprojAssemblyReference.cache
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\obj\Debug\netcoreapp3.1\MagicDestroyers.AssemblyInfoInputs.cache
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\obj\Debug\netcoreapp3.1\MagicDestroyers.AssemblyInfo.cs
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\obj\Debug\netcoreapp3.1\MagicDestroyers.dll
+C:\Users\aglins\source\repos\Magic Destroyers\Magic Destroyers\obj\Debug\netcoreapp3.1\MagicDestroyers.pdb
