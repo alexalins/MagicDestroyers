@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Equipment.Armors.Light
 {
-    class ClothRobe
+    class ClothRobe: Armor
     {
-        private int armorPoints;
-
         public ClothRobe() { }
     }
 }

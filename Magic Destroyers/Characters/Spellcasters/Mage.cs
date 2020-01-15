@@ -6,15 +6,8 @@ namespace MagicDestroyers.Characters.Spellcasters
 {
     class Mage
     {
-        private int abilityPoints;
-        private int healthPoints;
-        private int level;
-
-        private string faction;
-        private string name;
-
-        private ClothRobe bodyArmor;
-        private Staff weapon;
+        public ClothRobe BodyArmor { get; set; }
+        public Staff Weapon { get; set; }
 
         public Mage () { }
 

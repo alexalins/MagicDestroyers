@@ -6,15 +6,8 @@ namespace MagicDestroyers.Characters.Spellcasters
 {
     class Druid
     {
-        private int abilityPoints;
-        private int healthPoints;
-        private int level;
-
-        private string faction;
-        private string name;
-
-        private LightLeatherVest bodyArmor;
-        private Staff weapon;
+        public LightLeatherVest BodyArmor { get; set; }
+        public Staff Weapon { get; set; }
 
         public Druid() { }
 

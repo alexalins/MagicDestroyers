@@ -1,10 +1,10 @@
 ﻿using System;
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Equipment.Armors.Heavy
 {
-    class Chainlink
+    class Chainlink : Armor
     {
-        private int armorPoints;
 
         public Chainlink() { }
     }

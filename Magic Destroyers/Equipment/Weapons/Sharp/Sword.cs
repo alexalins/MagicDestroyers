@@ -1,12 +1,10 @@
 ﻿using System;
-
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Equipment.Weapons.Sharp
 {
-    class Sword
+    class Sword : Weapon
     {
-        private int damage;
-
         public Sword() { }
 
         public void Empower() { }

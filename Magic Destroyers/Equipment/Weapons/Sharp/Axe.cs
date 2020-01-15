@@ -1,11 +1,10 @@
-﻿using System;;
+﻿using System;
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Equipment.Weapons.Sharp
 {
-    class Axe
+    class Axe : Weapon
     {
-        private int damage;
-
         public Axe() { }
 
         public void HackNSlash() {}

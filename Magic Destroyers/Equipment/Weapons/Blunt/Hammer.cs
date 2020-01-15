@@ -1,11 +1,10 @@
 ﻿using System;
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Equipment.Weapons.Blunt
 {
-    class Hammer
+    class Hammer : Weapon
     {
-        private int damage;
-
         public Hammer()
         {
 

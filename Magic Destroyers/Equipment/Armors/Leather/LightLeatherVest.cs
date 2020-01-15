@@ -1,11 +1,10 @@
 ﻿using System;
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Equipment.Armors.Leather
 {
-    class LightLeatherVest
+    class LightLeatherVest : Armor
     {
-        private int armorPoints;
-
         public LightLeatherVest() { }
     }
 }

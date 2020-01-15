@@ -1,20 +1,14 @@
 ﻿using System;
 using MagicDestroyers.Equipment.Armors.Heavy;
 using MagicDestroyers.Equipment.Weapons.Blunt;
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Characters.Mellee
 {
-    class Knight
+    class Knight : Melee
     {
-        private int abilityPoints;
-        private int healthPoints;
-        private int level;
-
-        private string faction;
-        private string name;
-
-        private Chainlink bodyArmor;
-        private Hammer weapon;
+        public Chainlink BodyArmor { get; set; }
+        public Hammer Weapon { get; set; }
 
         public Knight()
         {

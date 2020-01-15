@@ -1,11 +1,10 @@
 ﻿using System;
+using MagicDestroyers.Models;
 
 namespace MagicDestroyers.Equipment.Weapons.Blunt
 {
-    class Staff
+    class Staff :  Weapon
     {
-        private int damage;
-
         public Staff() { }
 
         public void Empower() { }

@@ -6,16 +6,8 @@ namespace MagicDestroyers.Characters.Mellee
 {
     class Warrior
     {
-
-        private int abilityPoints;
-        private int healthPoints;
-        private int level;
-
-        private string faction;
-        private string name;
-
-        private Chainlink bodyArmor;
-        private Axe weapon;
+        public Chainlink bodyArmor { get; set; }
+        public Axe weapon { get; set; }
 
         public Warrior() { }
 
